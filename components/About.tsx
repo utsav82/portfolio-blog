@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
-
+import Image from "next/image";
 const About = () => {
   return (
     <section className=" h-screen py-16 px-4 md:px-8 relative">
@@ -15,8 +15,10 @@ const About = () => {
         consequuntur distinctio.
       </div>
       <div className="relative mt-10 md:mt-0 md:absolute md:top-0 md:right-0 md:w-1/3 md:mr-8">
-        <img
-          src="pfp.png"
+        <Image
+          height={500}
+          width={500}
+          src="/pfp.png"
           alt="Avatar"
           className="w-1/2 md:w-full mx-auto rounded-full"
         />
