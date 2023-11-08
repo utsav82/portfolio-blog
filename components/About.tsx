@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Image from "next/image";
 const About = () => {
   return (
-    <section className=" h-screen py-16 px-4 md:px-8 relative">
+    <section className=" my-10 py-16 px-4 md:px-8 relative">
       <h2 className="text-2xl font-bold mb-4">About Me</h2>
       <div className="mb-6 md:w-1/2">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto

@@ -29,7 +29,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <ModeToggle />
                 <nav className="ml-auto text-sm font-medium space-x-6">
                   <Link href="/">Home</Link>
-                  <Link href="/posts">Resume</Link>
+                  <a href="https://drive.google.com/file/d/1EGx6_IUDU4iwfgqPNUyoW3V_CrRmBTGw/view?usp=sharing">
+                    Resume
+                  </a>
                   <Link href="/posts">Blog</Link>
                 </nav>
               </div>
