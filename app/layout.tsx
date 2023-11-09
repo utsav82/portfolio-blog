@@ -8,7 +8,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Utsav Yadav",
   description: "A portfolio site built with Next.js and Tailwind CSS.",
 };
 
@@ -23,13 +23,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="max-w-7xl mx-auto py-10 px-4">
+          <div className="max-w-7xl mx-auto py-10 px-4 ">
             <header>
               <div className="flex items-center justify-between">
                 <ModeToggle />
                 <nav className="ml-auto text-sm font-medium space-x-6">
                   <Link href="/">Home</Link>
-                  <a href="https://drive.google.com/file/d/1EGx6_IUDU4iwfgqPNUyoW3V_CrRmBTGw/view?usp=sharing">
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1EGx6_IUDU4iwfgqPNUyoW3V_CrRmBTGw/view?usp=sharing"
+                  >
                     Resume
                   </a>
                   <Link href="/posts">Blog</Link>

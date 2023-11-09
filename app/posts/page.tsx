@@ -13,7 +13,7 @@ export default function Blog() {
             Blog
           </h1>
           <p className="text-xl text-muted-foreground">
-            A blog built using Contentlayer. Posts are written in MDX.
+            Explore my thoughts on software development, productivity, and more.
           </p>
         </div>
       </div>
