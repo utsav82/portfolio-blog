@@ -40,7 +40,7 @@ export default function SettingsLayout() {
   const [activeTab, setActiveTab] = React.useState(0);
   return (
     <>
-      <div className="sm:my-48 space-y-6 p-10 pb-16 md:block">
+      <div className="sm:my-36 space-y-6 p-10 pb-16 md:block">
         <div className="space-y-0.5">
           <h2 className="text-2xl font-bold tracking-tight">Experience</h2>
         </div>

@@ -6,13 +6,13 @@ const About = () => {
     <section className=" my-10 py-16 px-4 md:px-8 relative">
       <h2 className="text-2xl font-bold mb-4">About Me</h2>
       <div className="mb-6 md:w-1/2">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-        nemo laboriosam minima vel, est aliquid sed repellat perspiciatis
-        tenetur blanditiis atque ab laborum neque vitae dicta voluptate quo cum
-        impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        voluptatibus soluta eius cupiditate architecto blanditiis nam eos! Odio
-        qui in vero quibusdam magni nostrum magnam minus. Debitis quod
-        consequuntur distinctio.
+        Hey I am Utsav Yadav, a third-year IT undergraduate at HBTU Kanpur. I
+        have always been fascinated by technology and my love for it has driven
+        me towards coding and problem solving. I have dvelved into competitive
+        programming and web development over the past 2 years and it has been a
+        very memorable journey. Currently, I am learning about different System
+        Design concepts on how to make large scale distributed systems. I also
+        have hobbies ranging from speedcubing to watching anime and chilling.
       </div>
       <div className="relative mt-10 md:mt-0 md:absolute md:top-0 md:right-0 md:w-1/3 md:mr-8">
         <Image

@@ -1,12 +1,10 @@
-"use client";
-
 import { ProjectCard } from "./ProjectCard";
 import { Separator } from "./ui/separator";
 
 const projects = [
   {
     name: "The Health Onion",
-    icon: "/onion.png",
+    icon: "/Onion.png",
     description:
       "The Health Onion is a health based social media. Join communities that suit you, create posts and share your health journery with others.",
     liveLink: "https://the-health-onion.vercel.app/",
