@@ -60,7 +60,7 @@ const Skills = () => {
                 technologies like HTML, CSS, JavaScript, and SQL.
               </li>
               <li>
-                I'm well-versed in popular web development frameworks and
+                I am well-versed in popular web development frameworks and
                 libraries such as React.js, Next.js, Node.js, Express.js, and
                 the Tailwind CSS, allowing me to build powerful and efficient
                 web applications.
