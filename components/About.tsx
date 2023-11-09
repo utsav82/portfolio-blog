@@ -18,9 +18,9 @@ const About = () => {
         <Image
           height={500}
           width={500}
-          src="/pfp.png"
+          src="/coverphoyytu.png"
           alt="Avatar"
-          className="w-1/2 md:w-full mx-auto rounded-full"
+          className="object-cover mx-auto rounded-full h-96 w-96"
         />
       </div>
     </section>
