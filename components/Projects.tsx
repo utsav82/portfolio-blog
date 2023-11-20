@@ -26,6 +26,7 @@ const projects = [
     liveLink: "https://utsav82.github.io/Animusic/",
     githubLink: "https://github.com/utsav82/Animusic",
   },
+  
 ];
 
 const Projects = () => {
