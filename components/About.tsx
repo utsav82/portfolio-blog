@@ -20,7 +20,7 @@ const About = () => {
           width={500}
           src="/coverphoyytu.png"
           alt="Avatar"
-          className="object-cover mx-auto rounded-full h-96 w-96"
+          className="object-cover mx-auto h-96 w-96"
         />
       </div>
     </section>
