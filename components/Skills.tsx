@@ -19,7 +19,7 @@ const Skills = () => {
           <CardContent>
             <ul className="list-disc list-inside space-y-2">
               <li>
-                Max. CodeForces Rating 1553 (specialist) under handle{" "}
+                Max. CodeForces Rating 1639 (expert) under handle{" "}
                 <a
                   target="_blank"
                   href="https://codeforces.com/profile/Utsav82"
