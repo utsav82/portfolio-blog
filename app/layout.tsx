@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   <Link href="/">Home</Link>
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1EGx6_IUDU4iwfgqPNUyoW3V_CrRmBTGw/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1-EGkhKSy4yhoWXucI3EFCcgkQfv1JbtG/view?usp=sharing"
                   >
                     Resume
                   </a>
