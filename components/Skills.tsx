@@ -27,7 +27,7 @@ const bullets = [
         url: "https://codeforces.com/profile/Utsav82",
       },
       {
-        text: "Max. CodeChef Rating 1945 (4 star) under handle",
+        text: "Max. CodeChef Rating 2008 (5 star) under handle",
         url: "https://www.codechef.com/users/Utsav82",
       },
       {
