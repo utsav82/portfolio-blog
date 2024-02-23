@@ -30,10 +30,6 @@ const bullets = [
         text: "Max. CodeChef Rating 2008 (5 star) under handle",
         url: "https://www.codechef.com/users/Utsav82",
       },
-      {
-        text: "Secured Global rank 45 in Codechef Starters 107 Division 2",
-        url: null,
-      },
     ],
   },
   {
