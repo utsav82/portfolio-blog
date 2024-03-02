@@ -26,7 +26,21 @@ const projects = [
     liveLink: "https://utsav82.github.io/Animusic/",
     githubLink: "https://github.com/utsav82/Animusic",
   },
-  
+  {
+    name: "Log-Ingestor-Query",
+    icon: "/logs.png",
+    description:
+      "This project implements a log ingestor system and a query interface. The system efficiently handles vast volumes of log data and provides a simple interface for querying data.",
+    githubLink: "https://github.com/utsav82/log-ingestor-query",
+  },
+  {
+    name: "Paye",
+    icon: "/paye.png",
+    description:
+      "Currently working on Paye, an expense tracker designed to simplify expense tracking and sharing among users.",
+    githubLink: "https://github.com/utsav82/paye",
+    liveLink: "https://paye-peach.vercel.app/",
+  },
 ];
 
 const Projects = () => {
@@ -36,7 +50,7 @@ const Projects = () => {
         <h2 className="text-2xl font-bold tracking-tight">Projects</h2>
       </div>
       <Separator className="my-6" />
-      <div className="grid sm:grid-cols-3 gap-10">
+      <div className="grid sm:grid-cols-3 gap-10 justify-items-center">
         {projects.map((project) => (
           <ProjectCard key={project.name} projectInfo={project} />
         ))}
