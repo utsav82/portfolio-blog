@@ -19,19 +19,19 @@ const projects = [
     githubLink: "https://github.com/utsav82/Bollywood-Back",
   },
   {
-    name: "Animusic",
-    icon: "/animusic.png",
-    description:
-      "Listen to anime music on the website with a simple music player. Enjoy hand-picked tunes from anime shows and relive the anime magic through music!",
-    liveLink: "https://utsav82.github.io/Animusic/",
-    githubLink: "https://github.com/utsav82/Animusic",
-  },
-  {
     name: "Log-Ingestor-Query",
     icon: "/logs.png",
     description:
       "This project implements a log ingestor system and a query interface. The system efficiently handles vast volumes of log data and provides a simple interface for querying data.",
     githubLink: "https://github.com/utsav82/log-ingestor-query",
+  },
+  {
+    name: "Code0",
+    icon: "/code.png",
+    description:
+      "The Code Snippets Web Application is a platform designed to facilitate the submission and display of code snippets.",
+    githubLink: "https://github.com/utsav82/code0",
+    liveLink: "https://code-snippets-run.vercel.app/",
   },
   {
     name: "Paye",
@@ -40,6 +40,14 @@ const projects = [
       "Currently working on Paye, an expense tracker designed to simplify expense tracking and sharing among users.",
     githubLink: "https://github.com/utsav82/paye",
     liveLink: "https://paye-peach.vercel.app/",
+  },
+  {
+    name: "Animusic",
+    icon: "/animusic.png",
+    description:
+      "Listen to anime music on the website with a simple music player. Enjoy hand-picked tunes from anime shows and relive the anime magic through music!",
+    liveLink: "https://utsav82.github.io/Animusic/",
+    githubLink: "https://github.com/utsav82/Animusic",
   },
 ];
 
