@@ -2,6 +2,7 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -22,7 +23,7 @@ export function ProjectCard({ projectInfo }: ProjectCardProps) {
   const { name, description, icon, liveLink, githubLink } = projectInfo;
   return (
     <Card>
-      <CardHeader className="grid items-start gap-4">
+      <CardHeader className="grid gap-4">
         <div className="space-y-2">
           <CardTitle className="flex items-center gap-5">
             <Image
@@ -37,10 +38,13 @@ export function ProjectCard({ projectInfo }: ProjectCardProps) {
             />
             <span>{name}</span>
           </CardTitle>
-          <CardDescription>{description}</CardDescription>
         </div>
       </CardHeader>
       <CardContent>
+        <CardDescription>{description}</CardDescription>
+      </CardContent>
+      <CardFooter>
+        {" "}
         <div className="flex space-x-4 text-sm text-muted-foreground">
           {liveLink && (
             <Link
@@ -85,7 +89,7 @@ export function ProjectCard({ projectInfo }: ProjectCardProps) {
             </svg>
           </Link>
         </div>
-      </CardContent>
+      </CardFooter>
     </Card>
   );
 }

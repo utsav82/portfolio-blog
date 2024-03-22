@@ -20,7 +20,7 @@ const projects = [
   },
   {
     name: "Log-Ingestor-Query",
-    icon: "/logs.png",
+    icon: "/log.jpg",
     description:
       "This project implements a log ingestor system and a query interface. The system efficiently handles vast volumes of log data and provides a simple interface for querying data.",
     githubLink: "https://github.com/utsav82/log-ingestor-query",
