@@ -31,7 +31,7 @@ const projects = [
     description:
       "The Code Snippets Web Application is a platform designed to facilitate the submission and display of code snippets.",
     githubLink: "https://github.com/utsav82/code0",
-    liveLink: "https://code-snippet-run.vercel.app/",
+    liveLink: "https://code-snippets-run.vercel.app/",
   },
   {
     name: "Paye",
