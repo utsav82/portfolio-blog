@@ -8,7 +8,7 @@ const projects = [
     description:
       "The Health Onion is a health based social media. Join communities that suit you, create posts and share your health journery with others.",
     liveLink: "https://the-health-onion.vercel.app/",
-    githubLink: "https://github.com/utsav82/the-health-onion-v1",
+    githubLink: "https://github.com/utsav82/The-Health-Onion",
   },
   {
     name: "Bollywood Back",
