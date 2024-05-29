@@ -39,7 +39,7 @@ const projects = [
     description:
       "Currently working on Paye, an expense tracker designed to simplify expense tracking and sharing among users.",
     githubLink: "https://github.com/utsav82/paye",
-    liveLink: "https://paye-peach.vercel.app/",
+    liveLink: "https://paye-peach.vercel.app/dashboard",
   },
   {
     name: "Animusic",
