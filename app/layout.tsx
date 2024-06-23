@@ -35,7 +35,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   >
                     Resume
                   </a>
-                  <Link href="/posts">Blog</Link>
+                  {/* <Link href="/posts">Blog</Link> */}
                 </nav>
               </div>
             </header>
